@@ -88,7 +88,7 @@ This principle allows a single interface (method name) to be used to represent d
     <th> Role </th>
 </tr>
 <tr>
-    <td><img src="static/JohnVincent" width="100" height="100"> </td>
+    <td><img src="static/JohnVincent.jpg" width="100" height="100"> </td>
     <td><strong>John Vincent M. Doria</strong> <br/>
     <a href="https://github.com/JVinceent" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=blue" alt="JVinceent's GitHub">
