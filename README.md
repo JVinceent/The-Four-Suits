@@ -1,27 +1,42 @@
-# ♠️♥️ The Four Suits ♦️♣️
-### Your console-based card game simulation.
+<div align="center">
 
-CS 2103
-Doria, John Vincent
-Asilo, Sofhia Aubrey
-Salem, Jillian Ayesa
+<H1><strong>♠️♥️ The Four Suits ♦️♣️</strong></H1>
+<strong>Your console-based card game simulation</strong> 
+
+<BR> CS 2103 <BR>
+Doria, John Vincent <BR>
+Asilo, Sofhia Aubrey <BR>
+Salem, Jillian Ayesa <BR>
+
+</div>
+
+
+## ☑️ | Overview
+**"The Four Suits"** is a text-based, interactive fiction game designed as a project applying Object-Oriented Programming (OOP) concepts. The player is violently thrust into the "Borderland", a sterile, featureless space, and is told their survival depends on playing a series of death games. The core objective is to successfully complete four distinct challenges, each associated with one of the four card suits (Spades, Hearts, Diamonds, Clubs), by visiting Philippine locations like Tondo, Divisoria, Malacañang, and the MRT. The game tests the player's reflexes, psychological strength, intellect, and strategic skill. Success grants the corresponding card, while failure results in the loss of a Visa (a chance to make a decision right). The ultimate goal is to acquire all four cards and make a final choice: to become a Citizen or to Reject the system.
  
-## Overview
-***"The Four Suits"*** is a text-based, interactive fiction game designed as a project applying Object-Oriented Programming (OOP) concepts. The player is violently thrust into the "Borderland", a sterile, featureless space, and is told their survival depends on playing a series of death games. The core objective is to successfully complete four distinct challenges, each associated with one of the four card suits (Spades, Hearts, Diamonds, Clubs), by visiting Philippine locations like Tondo, Divisoria, Malacañang, and the MRT. The game tests the player's reflexes, psychological strength, intellect, and strategic skill. Success grants the corresponding card, while failure results in the loss of a Visa (a chance to make a decision right). The ultimate goal is to acquire all four cards and make a final choice: to become a Citizen or to Reject the system.
- 
-### ⟡ | Features
-1. Clubs (♣). Test your strategic skill in team-based or cooperative challenges.
-2. Diamonds (♦).Prove your logical thinking and wit in battles of intellect.
-3. Hearts (♥). Endure the test of psychological strength where you play with the hearts of others.
-4. Spades (♠). Survive through decisive action and physical challenges.
+## ➰ | Features
+1. <strong>Clubs (♣)</strong>. Test your strategic skill in team-based or cooperative challenges.
+2. <strong>Diamonds (♦)</strong>. Prove your logical thinking and wit in battles of intellect.
+3. <strong>Hearts (♥)</strong>. Endure the test of psychological strength where you play with the hearts of others.
+4. <strong>Spades (♠)</strong>. Survive through decisive action and physical challenges.
 5. Game Loop.  Succeed in a game, and you are granted the card. Fail, and you lose one Visa. Lose your last Visa, and the game takes everything.
  
-### ⟡ | Project Structure
-📂 src/
-└── 📂 Borderland/
-	├── ☕ Main.java      	
-	├── ☕ Player.java
-	└── ☕
+## ➿ | Project Structure
+📂 src/ <BR>
+└── 📂 ProjectAyesa/ <BR>
+>>├── 📂 Console <BR>
+>>    └── ☕ Console.java <BR>
+>>    └── ☕ Game.java <BR>
+>>    └── ☕ Graphics.java <BR>
+>>>├── 📂 Games <BR>
+>>>    └── ☕ GamesOfClubs.java <BR>
+>>>    └── ☕ GameOfDiamonds.java <BR>
+>>>    └── ☕ GameOfHearts.java <BR>
+>>>    └── ☕ GameOfSpades.java <BR>	
+>>├── ☕ Main.java <BR>
+>>├── ☕ Intro.java <BR>
+>>└── ☕ Player.java <BR>
+
  
 ProjectAyesa - The main package for the simulation.
 main/ - Contains the entry point and game loop logic.
