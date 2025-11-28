@@ -88,7 +88,7 @@ This principle allows a single interface (method name) to be used to represent d
     <th> Role </th>
 </tr>
 <tr>
-    <td><img src="static/JohnVincent.jpg" width="100" height="100"> </td>
+    <td><img src="static/JohnVincent.jpg" width="200" height="200"> </td>
     <td><strong>John Vincent M. Doria</strong> <br/>
     <a href="https://github.com/JVinceent" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=blue" alt="JVinceent's GitHub">
@@ -97,7 +97,7 @@ This principle allows a single interface (method name) to be used to represent d
     <td>Project Leader</td>
 </tr>
 <tr>
-    <td><img src="static/jeisquared.jpg" width="100" height="100"> </td>
+    <td><img src="static/SofhiaAubrey.jpg" width="200" height="200"> </td>
     <td><strong>Sofhia Aubrey M. Asilo</strong> <br/>
     <a href="https://github.com/asilo-sofhia" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=pink" alt="Sofhia's GitHub">
@@ -106,7 +106,7 @@ This principle allows a single interface (method name) to be used to represent d
     <td>Member</td>
 </tr>
 <tr>
-    <td><img src="static/renzmarrion.jpg" width="100" height="100"> </td>
+    <td><img src="static/JillianAyesa.jpg" width="200" height="200"> </td>
     <td><strong>Jillian Ayesa T. Salem</strong> <br/>
     <a href="https://github.com/Jillian-Ayesa" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=purple" alt="Jillian's GitHub">
