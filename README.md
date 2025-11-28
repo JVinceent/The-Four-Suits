@@ -20,53 +20,89 @@ Salem, Jillian Ayesa <BR>
 3. <strong>Hearts (♥)</strong>. Endure the test of psychological strength where you play with the hearts of others.
 4. <strong>Spades (♠)</strong>. Survive through decisive action and physical challenges.
 5. Game Loop.  Succeed in a game, and you are granted the card. Fail, and you lose one Visa. Lose your last Visa, and the game takes everything.
- 
-## ➿ | Project Structure
-📂 src/ <BR>
-└── 📂 ProjectAyesa/ <BR>
->>├── 📂 Console <BR>
->>    └── ☕ Console.java <BR>
->>    └── ☕ Game.java <BR>
->>    └── ☕ Graphics.java <BR>
->>>├── 📂 Games <BR>
->>>    └── ☕ GamesOfClubs.java <BR>
->>>    └── ☕ GameOfDiamonds.java <BR>
->>>    └── ☕ GameOfHearts.java <BR>
->>>    └── ☕ GameOfSpades.java <BR>	
->>├── ☕ Main.java <BR>
->>├── ☕ Intro.java <BR>
->>└── ☕ Player.java <BR>
 
- 
-ProjectAyesa - The main package for the simulation.
-main/ - Contains the entry point and game loop logic.
-player/ - Handles player attributes, survival status, and inventory.
- 
-### ⟡ | How to Run the Program
-Open your terminal in the src/ folder and run:
+
+## ➿ | Project Structure
+```
+📂 src/
+└── 📂 ProjectAyesa/
+    ├── ☕ Main.java          
+    ├── ☕ Intro.java
+    └── ☕ Player.java
+    └── 📂 Core/
+    |   ├── ☕ Console.java
+    |   ├── ☕ Game.java
+    |   ├── ☕ Graphics.java
+    └── 📂 Games/
+        ├── ☕ GamesOfClubs.java
+        ├── ☕ GameOfDiamonds.java
+        ├── ☕ GameOfHearts.java
+        └──  ☕ GameOfSpades.java
+```
+- `ProjectAyesa` - The main package for the simulation.
+-  `Main.java` - Contains the entry point and game loop logic.
+-  `Player` - Handles player attributes, survival status, and inventory.
+
+## 🏃‍♀️ | How To Run The Program
+Open your terminal in the `src/` folder and run:
+```
 javac ProjectAyesa/main/*.java
+```
 Run the program using:
+```
 java ProjectAyesa.main.Main
- 
-## ⟡ | Object-oriented Principles
-### 💊 Encapsulation
+```
+
+## 💻 | Object-oriented Principles
+### 🎁 Encapsulation
 [Pending Update: Describe which classes use private fields (e.g., Player health, Card rank) and how getters/setters are used.]
-### 💡 Abstraction
-[Pending Update: Describe if you used Abstract classes or Interfaces for the different Suit types.]
 ### 🧬 Inheritance
 [Pending Update: Describe how classes inherit from one another (e.g., does HeartsGame inherit from a Game parent class?)]
+### 🪄 Abstraction
+[Pending Update: Describe if you used Abstract classes or Interfaces for the different Suit types.]
 ### 🎭 Polymorphism
 [Pending Update: Describe how methods are overridden or overloaded to handle different game rules for each Suit.]
  
-## ⟡ | Sample Output
+## ✅ | Sample Output
  
-## ⟡ | Contributors
-Name                          	|| Role
-John Vincent Doria    	|| Project Leader
-Sofhia Aubrey Asilo  	|| Member / Developer
-Jillian Ayesa Salem    	|| Member / Developer
+## 🤝 | Contributors
+<table>
+<tr>
+    <th> &nbsp; </th>
+    <th> Name </th>
+    <th> Role </th>
+</tr>
+<tr>
+    <td><img src="static/marieemoiselle.JPG" width="100" height="100"> </td>
+    <td><strong>John Vincent M. Doria</strong> <br/>
+    <a href="https://github.com/JVinceent" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=blue" alt="JVinceent's GitHub">
+        </a>
+    </td>
+    <td>Project Leader</td>
+</tr>
+<tr>
+    <td><img src="static/jeisquared.jpg" width="100" height="100"> </td>
+    <td><strong>Sofhia Aubrey M. Asilo</strong> <br/>
+    <a href="https://github.com/asilo-sofhia" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=pink" alt="Sofhia's GitHub">
+        </a>
+    </td>
+    <td>Member</td>
+</tr>
+<tr>
+    <td><img src="static/renzmarrion.jpg" width="100" height="100"> </td>
+    <td><strong>Jillian Ayesa T. Salem</strong> <br/>
+    <a href="https://github.com/Jillian-Ayesa" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=purple" alt="Jillian's GitHub">
+        </a>
+    </td>
+    <td>Member</td>
+</tr>
+</table>
+
  
-### ⟡ | Acknowledgment
-We sincerely express our gratitude to our instructor for the guidance and support provided throughout the completion of this project. We also extend our appreciation to our classmates and peers for their cooperation and encouragement during the development process.
+### 🫂 | Acknowledgment
+We truly thank our instructor for all of the help and support we received in finishing this project.  We also thank our peers and classmates for their support and cooperation during the developing process.
 
 
