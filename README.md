@@ -55,13 +55,28 @@ java ProjectAyesa.main.Main
 
 ## 💻 | Object-oriented Principles
 ### 🎁 Encapsulation
-[Pending Update: Describe which classes use private fields (e.g., Player health, Card rank) and how getters/setters are used.]
+This principle bundles data with the methods that operate on it and restricts direct access to the internal data (hiding the "how").
+- Private Fields: The Player class declares fields like username, visas, and cards as private, preventing direct modification from outside classes.
+- Controlled Access: Data is accessed and modified through public methods, such as getUsername() (accessor) and updateProfile() (mutator), which ensures data is handled consistently and correctly.
+- Internal Logic Hiding: Helper methods, such as getCardNameForSuit(String suit) or addCard(String cardName), are likely private within the Player class to manage the internal state without exposing the specific implementation details to other parts of the application. <BR>
+
 ### 🧬 Inheritance
-[Pending Update: Describe how classes inherit from one another (e.g., does HeartsGame inherit from a Game parent class?)]
+This principle allows a new class (subclass) to acquire the properties and methods of an existing class (superclass), promoting code reuse and establishing an "is-a" relationship.
+- Base Class: The Game class serves as the base (parent) class, providing a common structure for all games.
+- Subclasses: Specific games like GameOfHearts, GameOfSpades, GameOfClubs, and GameOfDiamonds all use the syntax extends Game.
+- Code Reuse: All specific game types automatically inherit common attributes (like gameName or rules) and non-private methods defined in the abstract Game class. <BR>
+
 ### 🪄 Abstraction
-[Pending Update: Describe if you used Abstract classes or Interfaces for the different Suit types.]
+This principle focuses on showing only essential information to the user while hiding complexity and implementation details.
+- Abstract Class: The Game class is declared as public abstract class Game. This means it defines the necessary interface for all games but cannot be instantiated itself.
+- Defining the Interface: The abstract Game class likely declares an abstract method like play(). This tells the rest of the program what all games can do (game.play()) without exposing how each game is implemented.
+- Focus on 'What': The program interacts with the generic Game type, abstracting away the specific complex logic unique to GameOfHearts or GameOfClubs. <BR>
+
 ### 🎭 Polymorphism
-[Pending Update: Describe how methods are overridden or overloaded to handle different game rules for each Suit.]
+This principle allows a single interface (method name) to be used to represent different, specific implementations across a class hierarchy ("many forms").
+- Method Overriding: Each specific game class (GameOfHearts, etc.) provides its own unique implementation of the shared method, such as the play() method, overriding the base definition from the Game class.
+- Generic Reference: The Main class uses a generic variable type, for example, Game gameToPlay, to hold any specific game object (e.g., new GameOfHearts()).
+- Dynamic Behavior: When the code calls a method like gameToPlay.play(), the JVM determines which specific implementation (Hearts, Spades, etc.) to execute at runtime, based on the actual object stored in the gameToPlay variable. <BR>
  
 ## ✅ | Sample Output
  
