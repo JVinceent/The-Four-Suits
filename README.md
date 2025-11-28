@@ -1,7 +1,6 @@
-♠️ ♥️ The Four Suits ♦️ ♣️
- 
+#♠️ ♥️ The Four Suits ♦️ ♣️
 Your console-based card game simulation.
- 
+
 CS 2103
 Doria, John Vincent
 Asilo, Sofhia Aubrey
