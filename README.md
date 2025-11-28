@@ -4,9 +4,9 @@
 <strong>Your console-based card game simulation</strong> 
 
 <BR> CS 2103 <BR>
-Doria, John Vincent <BR>
-Asilo, Sofhia Aubrey <BR>
-Salem, Jillian Ayesa <BR>
+**Doria, John Vincent** <BR>
+**Asilo, Sofhia Aubrey** <BR>
+**Salem, Jillian Ayesa** <BR>
 
 </div>
 
@@ -22,7 +22,7 @@ Salem, Jillian Ayesa <BR>
 5. Game Loop.  Succeed in a game, and you are granted the card. Fail, and you lose one Visa. Lose your last Visa, and the game takes everything.
 
 
-## ➿ | Project Structure
+## ⛓️ | Project Structure
 ```
 📂 src/
 └── 📂 ProjectAyesa/
@@ -53,7 +53,7 @@ Run the program using:
 java ProjectAyesa.main.Main
 ```
 
-## 💻 | Object-oriented Principles
+## 💻 | Object - Oriented Principles
 ### 🎁 Encapsulation
 This principle bundles data with the methods that operate on it and restricts direct access to the internal data (hiding the "how").
 - Private Fields: The Player class declares fields like username, visas, and cards as private, preventing direct modification from outside classes.
