@@ -3,17 +3,14 @@
 <H1><strong>♠️♥️ The Four Suits ♦️♣️</strong></H1>
 <BR><strong>Your console-based card game simulation</strong> 
 
-<BR> <img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/1d6dd49d-8878-40b7-8553-c64f487be8c5" />
+<BR><img width="1000" height="900" alt="image" src="./static/1.jpg" />
 
 <BR> **CS 2103** <BR>
 **Doria, John Vincent M.** <BR>
 **Asilo, Sofhia Aubrey M.** <BR>
 **Salem, Jillian Ayesa T.** <BR>
 
-
 </div>
-
-
 
 ## ☑️ | Overview
 **"The Four Suits"** is a text-based, interactive fiction game designed as a project applying Object-Oriented Programming (OOP) concepts. The player is violently thrust into the "Borderland", a sterile, featureless space, and is told their survival depends on playing a series of death games. The core objective is to successfully complete four distinct challenges, each associated with one of the four card suits (Spades, Hearts, Diamonds, Clubs), by visiting Philippine locations like Tondo, Divisoria, Malacañang, and the MRT. The game tests the player's reflexes, psychological strength, intellect, and strategic skill. Success grants the corresponding card, while failure results in the loss of a Visa (a chance to make a decision right). The ultimate goal is to acquire all four cards and make a final choice: to become a Citizen or to Reject the system.
