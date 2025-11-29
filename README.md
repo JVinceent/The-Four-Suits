@@ -1,14 +1,18 @@
 <div align="center">
 
 <H1><strong>♠️♥️ The Four Suits ♦️♣️</strong></H1>
-<strong>Your console-based card game simulation</strong> 
+<BR><strong>Your console-based card game simulation</strong> 
 
-<BR> CS 2103 <BR>
-**Doria, John Vincent** <BR>
-**Asilo, Sofhia Aubrey** <BR>
-**Salem, Jillian Ayesa** <BR>
+<BR> <img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/1d6dd49d-8878-40b7-8553-c64f487be8c5" />
+
+<BR> **CS 2103** <BR>
+**Doria, John Vincent M.** <BR>
+**Asilo, Sofhia Aubrey M.** <BR>
+**Salem, Jillian Ayesa T.** <BR>
+
 
 </div>
+
 
 
 ## ☑️ | Overview
